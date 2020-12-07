@@ -1,0 +1,21 @@
+# GET http://localhost:3000/movies HTTP/1.1
+
+
+POST http://localhost:3000/movies/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Matrix",
+    "year": 1996,
+    "genres": ["Science", "awesome"]
+}
+
+# DELETE http://localhost:3000/movies/1 HTTP/1.1
+
+# PATCH http://localhost:3000/movies/1 HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "title": "KGF 2",
+#     "year": "2022"
+# }
